@@ -1,25 +1,54 @@
-body{
+body
+
+
+{
     font-family: poppins,sans-serif;
     padding: 0;
     margin: 0;
 }
-h2{
+
+
+h2
+
+
+{
     font-size: 35px;
 }
-h1{
+
+
+h1
+
+{
     font-size: 45px;
 }
-.name-highlight{
+
+
+.name-highlight
+
+
+{
     color: rgba(236,76,122,255);
     font-family: 'Roboto', sans-serif;
 }
-p{
+
+
+p
+
+{
     color: dimgray;
 }
-.first-center{
+
+
+.first-center
+
+{
     width: 40%;
- }
-.link-button{
+}
+
+
+.link-button
+
+{
     text-decoration: none;
     background-image: linear-gradient(45deg,rgba(236,76,122,255) , hotpink);
     padding: 10px 35px;
@@ -28,10 +57,18 @@ p{
     font-weight: 700;
 }
 
-.peter-img{
+
+.peter-img
+
+
+{
     width: 400px;
 }
-.top-part{
+
+
+.top-part
+
+{
     display: flex; 
     justify-content: space-around;
     background-image: url(images/header-bg.png);
@@ -42,19 +79,31 @@ p{
     background-size: cover;
 
 }
-.second-center{
+
+
+.second-center
+
+{
     width: 40%;
     float: right;
     padding-right: 100px;
     padding-top: 150px;
     
 }
-.peter-img-two{
+
+
+.peter-img-two
+
+{
     width: 400px;
     padding-left: 200px;
     padding-top: 130px;
 }
-.second-part{
+
+
+.second-part
+
+{
 
     background-image: url(images/biography-bg.png);
     background-attachment: fixed;
@@ -62,11 +111,20 @@ p{
     background-repeat: no-repeat; 
     background-size: cover;
 }
-.third-center{
+
+
+.third-center
+
+{
     text-align: center;
     padding-top: 60px;
 }
-.third-part{
+
+
+.third-part
+
+
+{
     background-image: url(images/latest-work-bg.png);
     background-attachment: fixed;
     background-position: cover;
@@ -74,24 +132,12 @@ p{
     background-size: cover;
     height: 650px;
 }
-.latest-one{
-    height: 250px;
-    width: 350px;
-    margin-right: 50px;
-    margin-left: 85px;
-    margin-top: 50px;
-}
 
-.latest-two{
-    height: 250px;
-    width: 350px;
-    margin-right: 50px;
-}
-.latest-three{
-    height: 250px;
-    width: 350px;
-}
-.last-area{
+
+.last-area
+
+
+{
         text-align: center;
         background-image: url(images/footer-bg.png);
         background-attachment: fixed;
@@ -100,28 +146,107 @@ p{
         background-size: cover;
         height: 650px;
 }
-#number-one{
+
+
+#number-on
+
+
+{
    margin-top: 80px;
     color: black;
 }
-#number-two{
+
+
+#number-two
+
+
+{
     margin-top: 0;
 }
-#number-three{
-    width: 30%;
-    margin-left: 480px;
+
+
+#number-three
+
+{
     margin-top: 50px;
 }
+
+
+.latest-work
+
+{
+    height: 250px;
+    width: 350px;
+}
+
+.latest-work-part
+
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.latest-work
+
+{
+    box-shadow: 10px 10px 20px rgba(128, 128, 128, 0.625);
+    border-radius: 10px;
+}
+
+
+.latest-one
+
+{
+    position: relative;
+    left: 60px;
+}
+
+
+.latest-three
+
+{
+    position: relative;
+    right: 60px;
+}
+
+
+.contact-part
+{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+
+.contact-part-main
+{
+    background-image: linear-gradient(280deg ,rgba(236,76,122,255) , hotpink);
+    padding: 25px 50px;
+    border-radius: 10px;
+}
+
+
+.contact-part-line-1
+
+{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.contact-part-line-2
+
+{
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+
+
+
 #footer{
     margin-top: 300px;
     font-size: 15px;
 }
-.button-gmail{
-    /* text-decoration: none;
-    background-image: linear-gradient(45deg,rgba(236,76,122,255) , hotpink);
-    padding: 10px 35px;
-    border-radius: 5px;
-    color: white;
-    font-weight: 700; */
-
-}  
